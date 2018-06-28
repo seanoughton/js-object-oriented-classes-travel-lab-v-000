@@ -39,7 +39,7 @@ class Route {
     if (peak === true) {
       minutes = 0;
     } else {
-      minutes = 0;
+      minutes = this.blocksTravelled();
     }// peak hour
     return minutes
   };
