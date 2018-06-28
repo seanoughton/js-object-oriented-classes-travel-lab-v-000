@@ -27,7 +27,7 @@ class Route {
     horizontal = this.beginningLocation.horizontal this.endingLocation.horizontal;
 
 
-    vertical =  this.endingLocation.vertical - this.beginningLocation.vertical;
+    vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
 
     distance = vertical + horizontal;
     return distance
