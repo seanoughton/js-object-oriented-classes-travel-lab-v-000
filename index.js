@@ -25,8 +25,8 @@ class Route {
     if (this.beginningLocation.horizontal === this.endingLocation.horizontal) {
       horizontal = 0;
     } else {
-      let startAve = 0 ;
-      let endAve = 0;
+      let startAve = eastWest.indexOf(this.beginningLocation.horizontal);
+      let endAve = eastWest.indexOf(this.endingLocation.horizontal);;
       horizontal = endAve - startAve;
     };
 
