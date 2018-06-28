@@ -37,7 +37,7 @@ class Route {
   estimatedTime(peak) {
     let minutes = 0;
     if (peak === true) {
-      minutes = 0;
+      minutes = this.blocksTravelled() / 2;
     } else {
       minutes = this.blocksTravelled() / 3;
     }// peak hour
