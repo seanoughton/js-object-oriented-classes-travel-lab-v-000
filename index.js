@@ -22,7 +22,7 @@ class Route {
 
     // for the horizontal use the array and test the index difference = horizontal distance
     if (this.beginningLocation.horizontal === this.endingLocation.horizontal) {
-      let horizontal = 0
+      let horizontal = 0;
     };
 
     let vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
