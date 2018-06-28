@@ -16,6 +16,6 @@ class Route {
   }
 
   blocksTravelled() {
-    
+    //returns an integer with the number of blocks travelled
   }
 }
