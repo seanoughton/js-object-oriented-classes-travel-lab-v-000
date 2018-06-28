@@ -22,7 +22,7 @@ class Route {
       horizontal = 0;
     } else {
       let startAve = eastWest.indexOf(this.beginningLocation.horizontal);
-      let endAve = eastWest.indexOf(this.endingLocation.horizontal);;
+      let endAve = eastWest.indexOf(this.endingLocation.horizontal);
       horizontal = endAve - startAve;
     };
 
