@@ -37,9 +37,9 @@ class Route {
   estimatedTime(peak) {
     let minutes = 0;
     if (peak === true) {
-      minutes = ;
+      minutes = 0;
     } else {
-      minutes = ;
+      minutes = 0;
     }// peak hour
     return minutes
   };
