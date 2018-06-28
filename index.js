@@ -16,9 +16,10 @@ class Route {
   }
 
   blocksTravelled() {
+    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     //returns an integer with the number of blocks travelled
     //let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
-    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+    
     //you have to find out how many blocks in streets(vertical) and how many blocks in ave's(horizontal) and add them together
     //you have to get the beginningLocation and end location for the route
     //you have to pull out the horz & vert for both beginning and ending
