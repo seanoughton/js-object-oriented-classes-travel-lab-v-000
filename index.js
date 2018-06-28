@@ -30,6 +30,6 @@ class Route {
     let vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
 
     let distance = vertical + horizontal;
-    return distance
+    return vertical + horizontal;
   }
 }
