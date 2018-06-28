@@ -18,7 +18,7 @@ class Route {
   blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     //returns an integer with the number of blocks travelled
-    //let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
+    //let route = new Route({horizontal: '1st Avenue', vertical: '34'}, {horizontal: 'Park', vertical: '34'})
 
     // for the horizontal use the array and test the index difference = horizontal distance
     let horizontal = 0;
