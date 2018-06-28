@@ -40,7 +40,7 @@ class Route {
     } else {
 
     }// peak hour
-
+    return minutes
   };
-  
+
 }
