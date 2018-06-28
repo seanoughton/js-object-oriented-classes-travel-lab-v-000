@@ -21,8 +21,9 @@ class Route {
     //let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
 
     // for the horizontal use the array and test the index difference = horizontal distance
-    horizontal = this.beginningLocation.horizontal this.endingLocation.horizontal;
-
+    if (this.beginningLocation.horizontal === this.endingLocation.horizontal) {
+      horizontal = 0
+    };
 
     vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
 
