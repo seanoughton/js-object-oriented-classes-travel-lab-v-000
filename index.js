@@ -32,4 +32,8 @@ class Route {
 
     return vertical + horizontal;
   }
+
+  estimatedTime() {
+    
+  };
 }
