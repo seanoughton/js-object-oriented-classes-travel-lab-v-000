@@ -24,6 +24,8 @@ class Route {
     let horizontal = 0;
     if (this.beginningLocation.horizontal === this.endingLocation.horizontal) {
       horizontal = 0;
+    } else {
+      horizontal = 1;
     };
 
     let vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
