@@ -26,8 +26,8 @@ class Route {
     // for the vertical subtract gives distance = vertical distance
     // for the horizontal use the array and test the index difference = horizontal distance
     // add vertical and horizontal and return
-    vertical = 
-    horizontal = 
+    vertical =this.beginningLocation.vertical - this.endingLocation.vertical
+    horizontal =
     distance = vertical + horizontal;
     return distance
   }
