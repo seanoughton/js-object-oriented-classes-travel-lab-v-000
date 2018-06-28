@@ -20,9 +20,6 @@ class Route {
     //returns an integer with the number of blocks travelled
     //let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
 
-
-    //you have to get the beginningLocation and end location for the route
-
     // for the horizontal use the array and test the index difference = horizontal distance
     horizontal = this.beginningLocation.horizontal this.endingLocation.horizontal;
 
